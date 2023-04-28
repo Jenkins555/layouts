@@ -1,7 +1,8 @@
 import React from "react";
 
 
-function ShopCard({ product }) {
+function ShopCard( props ) {
+  const { product } = props;
   return (
     <div className="card">
       <img src={product.img} alt={product.name} />

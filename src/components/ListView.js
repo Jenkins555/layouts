@@ -1,7 +1,8 @@
 import React from "react";
 import ShopItem from "./ShopItem";
 
- function ListView({ items }) {
+ function ListView( props ) {
+  const { items } = props;
   return (
     <div className="list-view">
       {items.map((item,index) => (

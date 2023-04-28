@@ -1,6 +1,7 @@
 import React from "react";
 
-function ShopItem({ product }) {
+function ShopItem( props ) {
+  const { product } = props;
   return (
     <div className="item">
       <img src={product.img} alt={product.name} />
