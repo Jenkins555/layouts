@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./css/card.css"
 
 function ShopCard( props ) {
   const { product } = props;
@@ -10,6 +10,7 @@ function ShopCard( props ) {
         <h2>{product.name}</h2>
         <p>{product.color}</p>
         <p>{product.price}</p>
+        <button>Купить</button> 
       </div>
     </div>
   );

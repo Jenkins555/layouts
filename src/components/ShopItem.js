@@ -1,15 +1,15 @@
 import React from "react";
+import "./css/list.css"
 
-function ShopItem( props ) {
+function ShopItem(props) {
   const { product } = props;
   return (
     <div className="item">
-      <img src={product.img} alt={product.name} />
-      <div className="item-text">
-        <h2>{product.name}</h2>
+      <img src={product.img} alt={product.name} />      
+        <h4>{product.name}</h4>
         <p>{product.color}</p>
         <p>{product.price}</p>
-      </div>
+        <button>Купить</button>      
     </div>
   );
 }
