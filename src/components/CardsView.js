@@ -1,4 +1,4 @@
-// CardsView.js
+
 import React from "react";
 
 function CardsView(props) {

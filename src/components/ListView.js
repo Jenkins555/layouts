@@ -1,4 +1,4 @@
-// ListView.js
+
 import React from "react";
 
 function ListView(props) {
